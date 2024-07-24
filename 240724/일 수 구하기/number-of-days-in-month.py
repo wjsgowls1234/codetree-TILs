@@ -7,3 +7,8 @@ elif n <= 7:
         print(31)
     else:
         print(30)
+elif n >= 7:
+    if n % 2 == 1:
+        print(30)
+    else:
+        print(31)
