@@ -1,15 +1,13 @@
-n=int(input())
+n = int(input())
 
 for i in range(n):
-    for j in range(n-i):
+    # 왼쪽 삼각형 부분
+    for j in range(n - i):
         print("*", end="")
-    for j in range(i):
+    # 가운데 공백 부분
+    for j in range(2 * i):
         print(" ", end="")
-    print()
-
-for i in range(n):
-    for j in range(i):
-        print(" ", end="")
-    for j in range(n-i):
+    # 오른쪽 삼각형 부분
+    for j in range(n - i):
         print("*", end="")
     print()
