@@ -3,7 +3,7 @@ cnt=0
 sum_val=0
 
 for i in range(10):
-    if arr[i] >= 260:
+    if arr[i] >= 250:
         break
     
     sum_val += arr[i]
