@@ -1,19 +1,11 @@
 arr=list(map(int,input().split()))
+cnt=0
 
 
-#for elem in reversed_arr:
-    #print(elem, end=" ")
-
-
-for i in range(10):
-    arr[i]
-    
-    reversed_arr = arr[::-1]
-    #for j in range():
-        #print(arr[j], end=" ")
-
-    if arr[i] == 0:
-        #cnt += 1
+for elem in arr:
+    if elem == 0:
         break
+    cnt += 1
 
-    print(reversed_arr[i], end=" ")
+for i in range(cnt-1, -1 ,-1):
+    print(arr[i], end=" ")
