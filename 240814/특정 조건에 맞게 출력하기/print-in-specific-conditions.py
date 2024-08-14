@@ -2,7 +2,7 @@ arr=list(map(int, input().split()))
 
 for elem in arr:
     if elem == 0:
-        continue
+        break
     if elem % 2 == 1:
         elem += 3
         print(elem, end=" ")
