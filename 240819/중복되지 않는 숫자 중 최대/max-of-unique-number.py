@@ -8,9 +8,11 @@ for i in range(n):
         new_arr.append(arr[i])
 
 max_val = 0
-for elem in new_arr:
-    if elem > max_val:
-        max_val = elem
-    elif new_arr == []:
-        max_val = -1
-print(max_val)
+
+if new_arr == []:
+    print(-1)
+else:
+    for elem in new_arr:
+        if elem > max_val:
+            max_val = elem
+    print(max_val)
