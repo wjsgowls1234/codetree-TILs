@@ -8,7 +8,7 @@ for _ in range(n):
     string = input()
     leng = len(string)
     all_len += leng
-    cnt = string.count('a')
+    cnt = string[0].count('a')
     all_cnt += cnt
 
 print(all_len, all_cnt)
