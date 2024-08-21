@@ -6,6 +6,6 @@ else:
     print("No", end=" ")
 
 if 'ab' in string:
-    prin("Yes")
+    print("Yes")
 else:
     print("No")
