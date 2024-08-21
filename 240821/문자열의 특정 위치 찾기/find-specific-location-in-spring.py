@@ -9,7 +9,6 @@ for i in range(length - 1):
     if s[i] == alpha:
         start_idx = i
         break
+    if start_idx == -1:
+        start_idx = "No"
 print(start_idx)
-
-if start_idx == -1:
-    print("No")
