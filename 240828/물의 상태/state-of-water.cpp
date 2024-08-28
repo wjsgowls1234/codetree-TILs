@@ -6,7 +6,7 @@ int main() {
     int n;
     cin >> n;
 
-    if (n < 10) {
+    if (n < 0) {
         cout << "ice" << endl;
     }
     else if (n >= 100) {
