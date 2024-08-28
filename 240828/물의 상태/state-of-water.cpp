@@ -13,7 +13,7 @@ int main() {
         cout << "vapor" << endl;
     }
     else {
-        cout << "water" << endl;
+        cout << "water";
     }
 
     return 0;
