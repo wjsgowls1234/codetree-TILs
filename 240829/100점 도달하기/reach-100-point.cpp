@@ -20,7 +20,7 @@ int main() {
             cout << "D ";
         }
         else {
-            cout << "F";
+            cout << "F ";
         }
     }
     return 0;
