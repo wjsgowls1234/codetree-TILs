@@ -11,7 +11,8 @@ int main() {
         int a;
         cin >> a;
 
-        sum_val += i;
+        if (a % 2 == 1 && a % 3 == 0)
+            sum_val += a;
     }
 
     cout << sum_val;
