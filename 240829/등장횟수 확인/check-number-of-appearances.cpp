@@ -6,7 +6,10 @@ int main() {
     int cnt = 0;
 
     for (int i = 1; i <= 5; i++) {
-        if (i % 2 == 0) {
+        int n;
+        cin >> n;
+
+        if (n % 2 == 0) {
             cnt++;
         }
     }
