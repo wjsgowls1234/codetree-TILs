@@ -5,17 +5,12 @@ int main() {
     
     int n;
     cin >> n;
-    bool satisfied = false;
+    bool satisfied = true;
 
-    for (int i = 2; i <= n; i++) {
-        int cnt = 0;
+    for (int i = 2; i < n; i++) {
 
         if (n % i == 0) {
-            cnt++;
-        }
-
-        if (cnt == 1) {
-            satisfied = true;
+            satisfied = false;
         }
     }
 
