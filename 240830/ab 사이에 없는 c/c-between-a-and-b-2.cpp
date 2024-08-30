@@ -13,10 +13,10 @@ int main() {
         }
     }
     if (satisfied == true) {
-        cout << "NO";
+        cout << "YES";
     }
     else {
-        cout << "YES";
+        cout << "NO";
     }
     return 0;
 }
