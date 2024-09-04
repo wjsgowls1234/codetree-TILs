@@ -16,7 +16,7 @@ int main() {
             x++;
 
             if (x > 'Z') {
-                cout << 'A';
+                x = 'A';
             }
         }
         cout << endl;
