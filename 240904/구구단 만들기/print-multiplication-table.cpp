@@ -9,7 +9,7 @@ int main() {
     for (int i = 1; i <= 9; i++) {
         for (int j = b; j >= a; j -= 2) {
             cout << j << " * " << i << " = " << i * j;
-            if (j == 2) {
+            if (j == a) {
                 cout << "";
             }
             else {
